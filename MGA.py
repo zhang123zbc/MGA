@@ -168,11 +168,11 @@ def sort_trans(batch_sample,n):#Transformation Classification
         return select(batch_sample, random.randint(5, 13))
     elif n==5:
         return select(batch_sample, 14)
-    elif n==5:
-        return select(batch_sample, 15)
     elif n==6:
-        return select(batch_sample, 16)
+        return select(batch_sample, 15)
     elif n==7:
+        return select(batch_sample, 16)
+    elif n==8:
         return batch_sample/random.randint(1,8)
 
 def circle_trans(batch_sample,unique_arr,i):
@@ -181,7 +181,7 @@ def circle_trans(batch_sample,unique_arr,i):
     return circle_trans(sort_trans(batch_sample,unique_arr[i]),unique_arr,i+1)
 
 def trans(batch_sample, n):#Mutually exclusive combination
-    unique_arr = random.sample(range(1, 8), n)
+    unique_arr = random.sample(range(1, 9), n)
     return circle_trans(batch_sample, unique_arr, 0)
 
 
@@ -261,7 +261,7 @@ class MGA(MGA.Attack):
             g += grads[i]
         return g
 
-    def weighted_random(self,a, b, is_integer=False):#[a, ¦Æ]
+    def weighted_random(self,a, b, is_integer=False):#[a, Â¦Ã†]
         if is_integer:
             values = np.arange(a, b + 1)
             weights = values
