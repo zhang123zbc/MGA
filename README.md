@@ -82,7 +82,7 @@ You can perform evaluations of other models by modifying eval.py
 ## Credits
 
 This repository is modified from [TransferAttack](https://github.com/Trustworthy-AI-Group/TransferAttack?tab=readme-ov-file). Great, thank you!
-Downloading the source code of [ResPA](https://github.com/ZezeTao/ResPA). Great, thank you!
+Download the source code of [ResPA](https://github.com/ZezeTao/ResPA). Great, thank you!
 
 ## About
 
