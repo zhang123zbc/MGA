@@ -28,8 +28,8 @@ and a variety of robust defense models.
 ### Installation
 
 * Python >= 3.13
-* PyTorch >= 1.21
-* Torchvision >= 0.13.1
+* PyTorch >= 2.7.1
+* Torchvision >= 0.22.1
 * timm >= 0.6.12
 
 ```bash
