@@ -74,7 +74,7 @@ if you put the data under the same directory and use the default settings.
 ### Run for Evaluation
 
 ```bash
-python evel.py
+python eval.py
 ```
 
 You can perform evaluations of other models by modifying eval.py
