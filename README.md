@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ### Import clean examples
 
-Building on previous work, we randomly selected 1,000 images from the ImageNet validation set for our experiments. All the images can be correctly classified. You can also construct your own sample set according to the following format. You can also download our prepared dataset and the generated adversarial examples from [Google Drive](https://zenodo.org/records/19218397).
+Building on previous work, we randomly selected 1,000 images from the ImageNet validation set for our experiments. All the images can be correctly classified. You can also construct your own sample set according to the following format. You can also download our prepared dataset and the generated adversarial examples from [Zenodo](https://zenodo.org/records/19218397).
 
 ```text
 dataset
