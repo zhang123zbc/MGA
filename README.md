@@ -2,24 +2,7 @@
 
 Multi-path Gradient Ascent
 
-Deep neural networks are known to be vulnerable to adversarial examples. Among
-various attack paradigms, transfer-based attacks are of particular interest due
-to their high practicality in black-box scenarios. In this paper, we revisit the
-generation of transferable adversarial examples from the perspective of ensemble
-learning. We argue that allocating the computational budget across multiple
-stochastic optimization paths can effectively reduce gradient redundancy, enlarge
-the feature-space distance between clean and adversarial examples, and uncover
-more transferable adversarial directions. To this end, we propose Multi-path
-Gradient Ascent (MGA), which sequentially coordinates multiple optimization
-trajectories under a fixed sampling budget. To ensure sufficient exploration
-diversity within the highly non-convex loss landscape, MGA incorporates a
-starting-point reset mechanism to spatially disperse the initialization of each path. Furthermore, a cross-path gradient prediction mechanism is introduced
-to leverage historical trajectory data, providing a look-ahead correction for
-subsequent updates. Building upon this framework, we further propose Multi-path
-Input Transformation (MIT) by integrating an intra-family mutually exclusive
-transformation sampling mechanism. Experiments on ImageNet show that our
-methods improve the transfer success rates across diverse network architectures
-and a variety of robust defense models.
+Deep neural networks are known to be vulnerable to adversarial examples. Among various attack paradigms, transfer-based attacks are of particular interest due to their high practicality in black-box scenarios. In this paper, we revisit the generation of transferable adversarial examples from the perspective of ensemble learning. We argue that allocating the computational budget across multiple stochastic optimization paths can effectively reduce gradient redundancy, enlarge the feature-space distance between clean and adversarial examples, and uncover more transferable adversarial directions. To this end, we propose Multi-path Gradient Ascent (MGA), which sequentially coordinates multiple optimization trajectories under a fixed sampling budget. To ensure sufficient exploration diversity within the highly non-convex loss landscape, MGA incorporates a starting-point reset mechanism to spatially disperse the initialization of each path. Furthermore, a cross-path gradient prediction mechanism is introduced to leverage historical trajectory data, providing a look-ahead correction for subsequent updates. Building upon this framework, we further propose Multi-path Input Transformation (MIT) by integrating an intra-family mutually exclusive transformation sampling mechanism. Experiments on ImageNet show that our methods improve the transfer success rates across diverse network architectures and a variety of robust defense models.
 
 ![Overview](./overview.png)
 
